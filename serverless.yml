@@ -37,12 +37,12 @@ functions:
          path: /
          method: get
          
-  imageUpload: #this is image resi name
-    handler: handler.imageUpload
-    events:
-      - httpApi:ze function
-         path: /users/create
-         method: get
+  # imageUpload: #this is image resi name
+  #   handler: handler.imageUpload
+  #   events:
+  #     - httpApi:ze function
+  #        path: /users/create
+  #        method: get
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
